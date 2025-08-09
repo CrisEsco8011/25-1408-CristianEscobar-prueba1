@@ -7,7 +7,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n===== MENÚ DE GESTIÓN DE TAREAS =====");
+            System.out.println("\n====== MENÚ DE GESTIÓN DE TAREAS ======");
             System.out.println("1. Agregar tarea");
             System.out.println("2. Listar todas las tareas");
             System.out.println("3. Marcar tarea como completada");
@@ -81,6 +81,7 @@ public class Main {
                     System.out.println("Opción inválida. Intenta de nuevo.");
             }
         } while (opcion != 8);
+
 
         teclado.close();
     }
